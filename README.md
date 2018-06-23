@@ -1,5 +1,5 @@
 # Shader Collection
-A bunch of shaders i made since i first started learning. I obviously only picked out the ones i like. This is for the purpose of sharing with friends and to better organize my work. Please give credit where it is due, and do not share this unless I have given you permission. I'm not gonna go into detail about how to use or how my shaders work since i'm lazy, but if you have questions or want to replicate one of the images found here send me a message and i'll help out.
+A bunch of shaders i made in shader forge and amplify shader since i first started learning. I obviously only picked out the ones i like. This is for the purpose of sharing with friends and to better organize my work. Please give credit where it is due, and do not share this unless I have given you permission. I'm not gonna go into detail about how to use or how my shaders work since i'm lazy, but if you have questions or want to replicate one of the images found here send me a message and i'll help out.
 
 Here is a collection of noise I found: https://drive.google.com/file/d/15FPNx6TX6hIGPCN8yavlxaOMHT4yfRHa/view
 
