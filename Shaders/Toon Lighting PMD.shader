@@ -7,6 +7,7 @@ Shader "Midget/Toon Lighting PMD"
 		_Cutoff( "Mask Clip Value", Float ) = 0.5
 		_Shadow("Shadow", Range( 0 , 1)) = 0
 		_Shiniess("Shiniess", Range( 1 , 200)) = 1
+		_Float6("Specular Contrib", Float) = 1
 		_SpecularColor("Specular Color", Color) = (1,1,1,0)
 		_Color("Color", Color) = (0,0,0,0)
 		_ShadowRamp("Shadow Ramp", 2D) = "white" {}
@@ -19,9 +20,8 @@ Shader "Midget/Toon Lighting PMD"
 		_CutoutValue("Cutout Value", Range( 0 , 1)) = 0.5
 		_NormalMULT("Normal MULT", Float) = 1
 		_SphereMult("Sphere Mult", 2D) = "white" {}
-		_Vector0("Vector 0", Vector) = (0.7,-1,-1,0)
-		_SphereAdd("Sphere Add", 2D) = "black" {}
-		_Float6("Float 6", Float) = 1
+		_Vector0("Static Light Pos", Vector) = (0.7,-1,-1,0)
+		_SphereAdd("Sphere Add", 2D) = "black" {}		
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 		[HideInInspector] __dirty( "", Int ) = 1
 	}
