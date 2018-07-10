@@ -35,7 +35,7 @@ And here is a collection of shadow ramps (from rero, make sure to read the readm
 
 # My toon lighting 
 <img src="/Gifs/2018-06-22_14-37-25.gif?raw=true" width="400px">
-
+Also added Toon Lighting PMD: Uses the SPH and TOON textures that usually comes with imported mmd models. Creates a unique lighting for every characer. (No gif cause not high enough quality to show the quality).
 # UV Fun
 <img src="/Gifs/2018-06-22_20-03-32.gif?raw=true" width="400px">
 (from left to right: Fish Eye, Barrel Distort)
