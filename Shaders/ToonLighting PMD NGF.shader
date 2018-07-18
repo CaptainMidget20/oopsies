@@ -4,6 +4,7 @@ Shader "Midget/Toon Lighting PMD NGF"
 {
 	Properties
 	{
+		[Enum(UnityEngine.Rendering.CullMode)] _Culling ("Cull Mode", Int) = 2
 		_Cutoff( "Mask Clip Value", Float ) = 0.5
 		_Shadow("Shadow", Range( 0 , 1)) = 0
 		_Shiniess("Shiniess", Range( 1 , 200)) = 1
@@ -34,7 +35,7 @@ Shader "Midget/Toon Lighting PMD NGF"
 	SubShader
 	{
 		Tags{ "RenderType" = "TransparentCutout"  "Queue" = "Geometry+0" }
-		Cull Off
+		Cull [_Culling]
 		CGINCLUDE
 		#include "UnityPBSLighting.cginc"
 		#include "UnityShaderVariables.cginc"
