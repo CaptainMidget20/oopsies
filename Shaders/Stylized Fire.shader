@@ -32,7 +32,7 @@ Shader "Midget/Fire Distort"
 	SubShader
 	{
 		Tags{ "RenderType" = "TransparentCutout"  "Queue" = "Geometry+0" "IgnoreProjector" = "True" "IsEmissive" = "true"  }
-		Cull Back
+		Cull Off
 		CGPROGRAM
 		#include "UnityShaderVariables.cginc"
 		#pragma target 4.6
