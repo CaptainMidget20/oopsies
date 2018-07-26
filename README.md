@@ -5,6 +5,9 @@ Here is a collection of noise I found: https://drive.google.com/file/d/15FPNx6TX
 
 And here is a collection of shadow ramps (from rero, make sure to read the readme in there): https://cdn.discordapp.com/attachments/427511160166809602/432159990762045441/RerosRamps.zip
 
+If you like what I do and wish to support me you can send me a tip to my paypal! jordandoiron01@gmail.com
+
+
 # Stylized Fire
 <img src="/Gifs/2018-06-22_13-08-53.gif?raw=true" width="400px">
 
